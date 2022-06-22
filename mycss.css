@@ -1,0 +1,264 @@
+/* text */
+.text-center {
+    text-align: center;
+}
+.font{
+  font-family: 'Meddon', cursive;
+}
+.heading-small{
+    font-size: 1.25rem;
+}
+.heading-medium{
+    font-size: 1.5rem;
+}
+.heading-big{
+    font-size: 1.75rem;
+}
+/* colors */
+.bg-red{
+    background: black;
+}
+.bg-black-white{
+    color: white;
+    background: black;
+}
+/* container */
+.container {
+    max-width: 1100px;
+    margin: 0 auto;
+}
+/* butonlar için */
+.btn{
+    margin-top: 1.25rem;
+    padding: 0.8rem 3rem;
+    border-radius: 7px;
+    letter-spacing: 0.5px;
+}
+.btn-primary{
+    background: black;
+}
+.btn-primary:hover{
+    color: black;
+    background-color: white;
+    border: 0.5px solid black;
+}
+.btn-primary-white{
+    color: black;
+    background-color: white;
+    border: 0.5px solid black;
+    border-radius: 2px;
+    width: 100%;
+    text-align: center;
+}
+    
+    .rainbow {
+        -webkit-animation:rainbow 2s infinite;
+        -ms-animation:rainbow 2s infinite;
+        -o-animation:rainbow 2s infinite;
+        animation:rainbow 2s infinite;
+        }
+        @-webkit-keyframes rainbow {
+        50% {color: #ff0000;}
+        20% {color: #ffff00;}
+        }
+        @-ms-keyframes rainbow {
+        50% {color: #ff0000;}
+        20% {color: #ffff00;}
+        }
+        @-o-keyframes rainbow {
+        50% {color: #ff0000;}
+        20% {color: #ffff00;}
+        }
+        @keyframes rainbow {
+        50% {color: #ff0000;}
+        20% {color: #ffff00;}
+        }
+        
+        .gradiant{
+            color: white;
+            background: black;
+        }
+        /* Forma */
+        .form-group{
+            padding: 0.25rem 0;
+        }
+        .form-group label{
+            display: block;
+        }
+        .form-control{
+            width: 100%;
+            padding: 0.25rem;
+            font-size: 1rem;
+            resize: none;
+            border: 1px solid black;
+            border-radius: 5px;
+        }
+        *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+    color: #fff;
+}
+
+html{
+    font-family: 'Cormorant Garamond', serif;
+    
+}
+#navbar{
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 0.75rem;
+    height: 70px;
+}
+#navbar ul{
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+}
+#navbar ul li a{
+    padding: 1rem;
+}
+#Home{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+    
+
+}
+
+#Home img{
+    max-width: 100%;
+    height: auto;
+    border-radius: 1.5em;
+}
+#Home .name{
+    text-align: center;
+}
+#Home .name h2{
+    margin-bottom: 0.75rem;
+
+}
+#Home .name p{
+    opacity: 0.6;
+    font-style: italic;
+}
+#Home a{
+    margin-top: 1.25rem;
+    background-color: black;
+    padding: 0.8rem 3rem;
+    border-radius: 7px;
+}
+#Home a:hover{
+    color: black;
+    background-color: white;
+    border: 0.5px solid black;
+    letter-spacing: 0.5px;
+}
+.gradiant:hover{
+    background-image:linear-gradient(to right, black,#D60000,#F7C800)
+}
+#Places{
+    color: black;
+    padding: 1rem;
+}
+#Places .items{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#Places .item{
+    width: 33%;
+    text-align: center;
+    padding: 0.5rem;
+    font-family: 'Cormorant Garamond', serif;
+
+}
+/* Berlin Section */
+
+#berlin{
+    color: black;
+    padding: 1rem;
+}
+.berlin{
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+
+}
+.berlin .place1{
+    display: flex;
+    padding: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+.berlin .place1 .berlin-img{
+    margin-right: 0.5rem;
+    position: relative;
+    
+}
+.berlin .place1 .berlin-img img{
+   border-radius: 5px;
+}
+.berlin .place1 .berlin-img span{
+   background: black;
+   padding: 0.25rem;
+   color: white;
+   border-radius: 5px;
+   position: absolute;
+   top: 15px;
+   left: 0;
+}
+.berlin .place1 .berlin-info .title{
+    letter-spacing: 1.2px;
+    font-weight: 700;
+    margin-bottom: 0.25rem;
+}
+.berlin .place1 .berlin-info .description{
+    letter-spacing: 1.2px;
+    margin-bottom: 0.25rem;
+    opacity: 0.6;
+}
+.berlin .place1 .berlin-info .guides{
+    font-size: 0.8rem;
+    margin-bottom: 0.25rem;
+    opacity: 0.6;
+}
+.berlin .place1 .berlin-info .raitings{
+    font-size: 0.8rem;
+    margin-bottom: 0.25rem;
+    opacity: 0.6;
+}
+
+
+#contact{
+    color: white;
+    padding: 1rem;
+}
+#contact .contact-form{
+    max-width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+}
+#contact .contact-form ul{
+    list-style-type: none;
+    display: flex;
+    margin-top: 1rem;
+    align-self: center;
+
+}
+#contact .contact-form ul li a{
+    padding: 1rem;
+    font-size: 2rem;
+}
+#contact .contact-form ul li a:hover{
+    opacity: 0.8;
+}
+
